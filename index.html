@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Green Earth</title>
+    <!-- Inter Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Daisy UI & Tailwind-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      * {
+        font-family: "Inter", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav class="bg-[#15803D]">
+        <div class="flex flex-row md:flex-row w-11/12 mx-auto justify-between items-center py-2 md:py-3 gap-3">
+          <div class="flex items-center gap-2">
+            <img src="./assets/forest.png" alt="logo" class="w-10" />
+            <h2 class="text-white font-semibold text-xl">Green Earth</h2>
+          </div>
+          <ul class="flex-col md:flex md:flex-row gap-5 text-white text-sm font-semibold hidden md:flex">
+            <li>About</li>
+            <li>Gallery</li>
+            <li>Plant a Tree</li>
+          </ul>
+          <button class="bg-yellow-400 p-2 px-5 rounded-3xl text-green-700">Plant a Tree</button>
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <section>
+        <div class="flex flex-col md:flex-row justify-between items-center bg-green-100 p-4">
+          <div class="hidden md:block">
+            <img src="./assets/hero-leaf1.png" alt="hero-leaf1" />
+          </div>
+          <div class="text-center md:text-center space-y-2 md:space-y-5">
+            <h1 class="text-xl md:text-3xl font-bold mt-5">
+              Plant a Tree, Grow a Future
+            </h1>
+            <p class="text-gray-700">
+              Join our mission to plant 1 million trees and make the Earth
+              greener for future generations.
+            </p>
+            <button class="bg-yellow-400 p-2 px-5 rounded-3xl text-green-700 mb-5">
+              Get Involved
+            </button>
+          </div>
+          <div class="hidden md:block">
+            <img src="./assets/hero-leaf2.png" alt="hero-leaf2" />
+          </div>
+        </div>
+      </section>
+    </header>
+
+
+    <script src="./script.js"></script>
+  </body>
+</html>
