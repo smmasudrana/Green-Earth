@@ -163,4 +163,19 @@ cartContainer.addEventListener("click", (e) => {
   }
 });
 
+// Manage Spinner
+const manageSpinner = (status) => {
+  if (status) {
+    loadingSpinner.classList.remove("hidden");
+    cartContainer.classList.add("hidden");
+  } else {
+    loadingSpinner.classList.add("hidden");
+    cartContainer.classList.remove("hidden");
+  }
+};
+
+// By Default All Items Button Highlight
+
+loadCategory();
+loadAllPlants();
 

@@ -33,6 +33,18 @@
     </style>
   </head>
   <body>
+    <!-- Modal -->
+    <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+      <div class="modal-box">
+        <div id="modalContainer"></div>
+        <div class="modal-action">
+          <form method="dialog">
+            <button class="btn">Close</button>
+          </form>
+        </div>
+      </div>
+    </dialog>
+
     <!-- Header -->
     <header>
       <nav class="bg-[#15803D]">
@@ -90,7 +102,7 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-12 gap-4">
           <!-- Categories -->
           <div class="col-span-full md:col-span-2 p-2 order-1">
-            <h1 class="font-bold text-center md:text-left">Categories</h1>
+            <h1 class="font-bold text-center md:text-left mb-3">Categories</h1>
             <ul id="categoryContainer" class="space-y-2"></ul>
           </div>
 
